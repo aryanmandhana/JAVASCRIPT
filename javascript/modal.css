@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 90%;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    justify-content: center;
+    padding: 4px;
+}
+
+.display-modal {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+    margin: 3rem 4rem;
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5rem;
+}
+
+.modal {
+    position: absolute;
+    width: 30%;
+    padding: 1rem;
+    top: 20%;
+    left: 32%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem black;
+    z-index: 2;
+
+}
+
+.hide {
+    display: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+
+}
+
+h2 {
+    margin-bottom: 1rem;
+
+}
+
+.blur-effect {
+    background-color: rgba(59, 55, 55, 0.872);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.one {
+    padding-left: 9px;
+    justify-content: center;
+}
